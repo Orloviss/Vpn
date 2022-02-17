@@ -1,0 +1,72 @@
+ 
+ 
+ body {
+     margin: 0;
+     padding: 0;
+    font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     background-color: #000000;
+ }
+ * {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+ /* Dark */
+ .logo {
+    fill: #fff;
+}
+.vpn-location, .start-button {
+    background: #232026;
+}
+p, .connected-time {
+    color: #fff;
+}
+i.fi.fi-rr-angle-small-right, i.fi.fi-sr-cross, i.fi.fi-rr-arrow-left {
+    color: #fff;
+}
+.point {
+    filter: invert(96%) sepia(17%) saturate(134%) hue-rotate(176deg) brightness(120%) contrast(100%);
+}
+.title_row.bold {
+    background-color: #000;
+    color: #fff;
+}
+p.title.bold, h4 {
+    color: #fff !important;
+}
+a.light-button {
+    background: #38323F;
+    color: #fff;
+}
+input#input {
+    background: #232026;
+    color: #fff;
+}
+.input_box:before {
+    filter: invert(1);
+}
+.noresults {
+    background-image: url(../img/Group\ 281.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body > main > div.setting_row > div > div > span, span#myTooltip, body > main > div.upgrade > span, .restore {
+    color: #fff;
+}
+input#myInput, button.copy {
+    background: transparent;
+}
+form {
+    color: #fff;
+}
+.checkbox-google .checkbox-google-switch {
+
+    background: #5a5a5a;
+}
+.checkbox-google input[type=checkbox]:checked + .checkbox-google-switch {
+    background: #485974;
+}

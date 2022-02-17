@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+</head>
+
+<body>
+    <div class="title_row bold"> <i onclick="return location.href = './index.html'" class="fi fi-rr-arrow-left"></i>
+        My Account</div>
+    <main class="container signin">
+        <div class="noresults" ></div>
+        <h4>Looks like You’re not signed in yet.</h4>
+        <a class="button">SIGN IN</a>
+        <div class="setting_row">
+
+            <div class="setting_box">
+                <span class="bold id">ID</span>
+                <div class="setting_col"> <span>User ID</span>
+                    <input class="light" type="text" value="284529462" id="myInput"> 
+                </div>
+            </div>
+            <button class="copy" onclick="myFunction()" onmouseout="outFunc()">
+                <span class="tooltiptext" id="myTooltip"></span>
+                <i class="fi fi-br-copy"></i>
+                </button>
+        </div>
+        <hr>
+        
+
+       
+        <div class="upgrade">
+            <span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20.9717 4.97739C20.6672 4.8375 20.3318 4.80073 20.0083 4.87176C19.6847 4.94279 19.3877 5.11841 19.155 5.37625L17 7.7529L13.1783 3.53817C12.8658 3.19358 12.4419 3 12 3C11.5581 3 11.1342 3.19358 10.8217 3.53817L7 7.7529L4.845 5.37625C4.61191 5.11927 4.31497 4.94428 3.99172 4.87338C3.66846 4.80249 3.33341 4.83889 3.02891 4.97798C2.72441 5.11707 2.46414 5.3526 2.281 5.6548C2.09786 5.957 2.00007 6.3123 2 6.67578V16.4048C2.00132 17.6231 2.44073 18.791 3.22185 19.6525C4.00296 20.5139 5.062 20.9985 6.16667 21H17.8333C18.938 20.9985 19.997 20.5139 20.7782 19.6525C21.5593 18.791 21.9987 17.6231 22 16.4048V6.67578C22.0001 6.31227 21.9024 5.9569 21.7194 5.65459C21.5364 5.35228 21.2761 5.11661 20.9717 4.97739Z"
+                        fill="url(#paint0_linear_10_528)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_10_528" x1="-5.5" y1="-1.5" x2="28" y2="27.5"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6622CC" />
+                            <stop offset="1" stop-color="#22CCC2" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                Base Plan</span>
+            <a class="button">UPGRADE</a>
+        </div>
+        <hr>
+        <div class="restore"><i class="fi fi-br-time-past"></i> Restore</div>
+
+    </main>
+    <div class="tabbar">
+        <div class="tabbar-body">
+
+            <svg class="first-btn active" width="22" height="24" viewBox="0 0 22 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="tabbar-icon"
+                    d="M1 12.6045C1 11.2702 2.00331 10.1703 3.29663 10.018L3.79756 10.6191C7.02542 14.4925 12.9746 14.4925 16.2024 10.6191L16.7034 10.018C17.9967 10.1703 19 11.2702 19 12.6045V15.5C19 18.5376 16.5376 21 13.5 21H6.5C3.46243 21 1 18.5376 1 15.5V12.6045Z"
+                    fill="#B5AEBE" stroke="#B5AEBE" stroke-width="2" />
+                <circle class="tabbar-icon" cx="10" cy="5" r="4" fill="#B5AEBE" stroke="#B5AEBE" stroke-width="2" />
+            </svg>
+
+
+            <span onclick="return location.href = './index.html'"> <svg class="sec-btn" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_19_30)">
+                        <path class="tabbar-icon"
+                            d="M23.437 10.487L14.939 1.30001C14.5645 0.89479 14.1102 0.571442 13.6046 0.350294C13.0991 0.129147 12.5533 0.0149841 12.0015 0.0149841C11.4497 0.0149841 10.9039 0.129147 10.3984 0.350294C9.89283 0.571442 9.43852 0.89479 9.064 1.30001L0.581 10.484C0.208713 10.8588 -0.000155505 11.3657 8.68665e-08 11.894V21C8.68665e-08 21.7957 0.316071 22.5587 0.87868 23.1213C1.44129 23.6839 2.20435 24 3 24H7V18C7.00335 17.1018 7.24932 16.2212 7.71192 15.4513C8.17451 14.6813 8.83653 14.0507 9.628 13.626C9.678 13.598 9.728 13.57 9.78 13.543C9.96671 13.45 10.1591 13.3688 10.356 13.3C10.491 13.251 10.628 13.209 10.769 13.172C10.91 13.135 11.08 13.102 11.24 13.072C11.328 13.058 11.41 13.028 11.5 13.019C11.654 13.004 11.8 13.001 11.955 13C11.971 13 11.985 12.995 12 12.995H12.018C12.3275 12.9974 12.6362 13.0285 12.94 13.088C12.974 13.095 13.008 13.098 13.04 13.105C13.325 13.1673 13.6041 13.2542 13.874 13.365C13.912 13.38 13.95 13.394 13.988 13.411C14.2462 13.5231 14.4945 13.6569 14.73 13.811L14.841 13.885C15.0696 14.0439 15.2847 14.2215 15.484 14.416C15.516 14.447 15.546 14.478 15.577 14.51C15.7722 14.7105 15.9508 14.9266 16.111 15.156L16.179 15.256C16.3364 15.495 16.4732 15.7469 16.588 16.009C16.601 16.041 16.612 16.073 16.625 16.109C16.7393 16.3854 16.8283 16.6716 16.891 16.964C16.891 16.986 16.898 17.009 16.902 17.031C16.9663 17.35 16.9991 17.6746 17 18V24H21C21.7956 24 22.5587 23.6839 23.1213 23.1213C23.6839 22.5587 24 21.7957 24 21V11.879C24.0002 11.3595 23.7983 10.8603 23.437 10.487Z"
+                            fill="#6622CC" />
+                        <path class="tabbar-icon"
+                            d="M12 15C11.2044 15 10.4413 15.3161 9.87868 15.8787C9.31607 16.4413 9 17.2044 9 18V24H15V18C15 17.2044 14.6839 16.4413 14.1213 15.8787C13.5587 15.3161 12.7956 15 12 15Z"
+                            fill="#6622CC" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_19_30">
+                            <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg></span>
+
+            <span onclick="return location.href = './settings.html'"><svg class="third-btn " width="22" height="24"
+                    viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.606997 18C0.803821 18.3416 1.06605 18.6411 1.37868 18.8812C1.69131 19.1214 2.04822 19.2976 2.429 19.3998C2.80978 19.502 3.20696 19.5281 3.59784 19.4766C3.98871 19.4252 4.36562 19.2972 4.707 19.1L5.152 18.843C5.992 19.5617 6.95753 20.119 8 20.487V21C8 21.7956 8.31607 22.5587 8.87868 23.1213C9.44129 23.6839 10.2043 24 11 24C11.7956 24 12.5587 23.6839 13.1213 23.1213C13.6839 22.5587 14 21.7956 14 21V20.487C15.0426 20.1184 16.0082 19.5604 16.848 18.841L17.295 19.099C17.9846 19.4968 18.8039 19.6044 19.5728 19.3981C20.3417 19.1918 20.9972 18.6886 21.395 17.999C21.7928 17.3094 21.9004 16.4901 21.6941 15.7212C21.4878 14.9523 20.9846 14.2968 20.295 13.899L19.851 13.643C20.0509 12.5554 20.0509 11.4406 19.851 10.353L20.295 10.097C20.6364 9.90002 20.9357 9.63771 21.1758 9.32506C21.4159 9.01241 21.592 8.65554 21.6941 8.27482C21.7963 7.8941 21.8224 7.49699 21.7711 7.10616C21.7198 6.71533 21.592 6.33844 21.395 5.997C21.198 5.65556 20.9357 5.35627 20.6231 5.1162C20.3104 4.87614 19.9535 4.70001 19.5728 4.59786C19.1921 4.49572 18.795 4.46956 18.4042 4.52089C18.0133 4.57221 17.6364 4.70002 17.295 4.897L16.85 5.154C16.0092 4.43617 15.0429 3.87983 14 3.513V3C14 2.20435 13.6839 1.44129 13.1213 0.87868C12.5587 0.31607 11.7956 0 11 0C10.2043 0 9.44129 0.31607 8.87868 0.87868C8.31607 1.44129 8 2.20435 8 3V3.513C6.95739 3.88157 5.99185 4.4396 5.152 5.159L4.705 4.9C4.01543 4.50218 3.19608 4.39457 2.42718 4.60086C1.65828 4.80715 1.00282 5.31044 0.604997 6C0.207172 6.68956 0.0995693 7.50892 0.305859 8.27782C0.512149 9.04672 1.01543 9.70218 1.705 10.1L2.149 10.356C1.94911 11.4436 1.94911 12.5584 2.149 13.646L1.705 13.902C1.01719 14.301 0.51548 14.9562 0.309692 15.7242C0.103904 16.4923 0.210807 17.3106 0.606997 18ZM11 8C11.7911 8 12.5645 8.2346 13.2223 8.67412C13.8801 9.11365 14.3928 9.73836 14.6955 10.4693C14.9983 11.2002 15.0775 12.0044 14.9231 12.7804C14.7688 13.5563 14.3878 14.269 13.8284 14.8284C13.269 15.3878 12.5563 15.7688 11.7804 15.9231C11.0044 16.0775 10.2002 15.9983 9.46926 15.6955C8.73836 15.3928 8.11364 14.8801 7.67412 14.2223C7.23459 13.5645 7 12.7911 7 12C7 10.9391 7.42142 9.92172 8.17157 9.17157C8.92172 8.42143 9.93913 8 11 8Z"
+                        fill="#B5AEBE" />
+                </svg>
+            </span>
+        </div>
+    </div>
+    <script rel="javascript" src="./css/js/main.js"></script>
+    <script>
+        function myFunction() {
+          var copyText = document.getElementById("myInput");
+          copyText.select();
+          document.execCommand("copy");
+          
+          var tooltip = document.getElementById("myTooltip");
+          tooltip.innerHTML = "Copied" ;
+          if (window.getSelection) {
+      window.getSelection().removeAllRanges();
+    } else { // старый IE
+      document.selection.empty();
+    }
+        }
+        
+        function outFunc() {
+          var tooltip = document.getElementById("myTooltip");
+          tooltip.innerHTML = "";
+        }
+        
+        </script>
+</body>
+
+</html>
